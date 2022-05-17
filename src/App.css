@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  visibility: hidden;
 }
 
 .App-logo {
@@ -9,12 +10,24 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    opacity: 0;
   }
+}
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  margin: 50px;
+  background-color: yellow;
+}
+.circle.red {
+  background-color: red;
+}
+.circle.blue {
+  background-color: skyblue;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
