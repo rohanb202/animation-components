@@ -14,7 +14,9 @@ function MainText({ text }) {
   return (
     <div
       className="text-3xl cursor-pointer GM"
-      onMouseLeave={() => setTimeout(() => setHover(false))}
+      onMouseLeave={() =>
+        setTimeout(() => setTimeout(() => setHover(false), 500))
+      }
     >
       <h1 onMouseEnter={() => setHover(true)} className="absolute textStroke2 ">
         {text}
