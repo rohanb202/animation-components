@@ -29,8 +29,18 @@ function ScrollText() {
 
   return (
     <section ref={ref}>
-      <div className="flex text-9xl BGB textStroke2" ref={w}>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      <div
+        className="relative flex justify-between left-56 text-9xl BGB textStroke2"
+        ref={w}
+      >
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
+        <h1>Xono</h1>
       </div>
     </section>
   );

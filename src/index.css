@@ -3,6 +3,7 @@
 @tailwind utilities;
 body {
   background-color: black;
+  /* overflow-x: hidden; */
 }
 .img-con {
   visibility: hidden;
